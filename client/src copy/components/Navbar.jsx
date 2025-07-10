@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import { assets } from '../../public/assets/assets'
+import { assets } from '../../src/assets/assets'
 import { MenuIcon, Scroll, SearchIcon, TicketPlus, XIcon } from 'lucide-react'
 import { useState } from 'react'
 import { useClerk, UserButton, useUser } from '@clerk/clerk-react'

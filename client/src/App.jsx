@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Routes, useLocation } from 'react-router-dom'
-import home from './pages/home'
+import Home from './pages/Home'
 import movieDetails from './pages/movieDetails'
 import Movies from './pages/Movies'
 import SeatLayout from './pages/SeatLayout'
@@ -16,7 +16,7 @@ const App = () => {
     <Toaster/>
     {!isAdminRoute && <Navbar/>}
     <Routes>
-      <Route path="/" element={<home/>}/>
+      <Route path="/" element={<Home/>}/>
       <Route path="/movies" element={<Movies/>}/>
       <Route path="/movies:id" element={<movieDetails/>}/>
       <Route path="/movies:id:date" element={<SeatLayout/>}/>
