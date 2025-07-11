@@ -1,10 +1,10 @@
-import logo from './logo.svg'
+import logo from './logo-cinerush.png'
 import marvelLogo from './marvelLogo.svg'
 import googlePlay from './googlePlay.svg'
 import appStore from './appStore.svg'
 import screenImage from './screenImage.svg'
 import profile from './profile.png'
-import jurrasic from './jurrasic.png'
+import jurrasic from './jurassic-world.jpg'
 import logoj from './logo-removebg-preview.png'
 export const assets = {
     logo,

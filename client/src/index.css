@@ -2,8 +2,8 @@
 @import "tailwindcss";
 
 @theme{
-  --color-primary:#F84565;
-  --color-primary-dull:#D63854;
+  --color-primary:#23b7fc;
+  --color-primary-dull:#048ccc;
 }
 *{
   font-family: "Outfit", sans-serif;

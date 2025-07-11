@@ -1,10 +1,10 @@
-import logo from './logo.svg'
+import logo from './logo-cinerush.png'
 import marvelLogo from './marvelLogo.svg'
 import googlePlay from './googlePlay.svg'
 import appStore from './appStore.svg'
 import screenImage from './screenImage.svg'
 import profile from './profile.png'
-import jurrasic from './jurrasic.png'
+import jurrasic from './jurassic-world.jpg'
 import logoj from './logo-removebg-preview.png'
 export const assets = {
     logo,
@@ -18,6 +18,10 @@ export const assets = {
 }
 
 export const dummyTrailers = [
+    {   
+        image: "https://i.ytimg.com/vi/jan5CFWs9ic/hq720.jpg?sqp=-…BACGAY4AUAB&rs=AOn4CLBkfg1Myq1OhpZ7LG6WlkjSnJ1z3w",
+        videoUrl: 'https://www.youtube.com/watch?v=jan5CFWs9ic'
+    },
     {
         image: "https://img.youtube.com/vi/WpW36ldAqnM/maxresdefault.jpg",
         videoUrl: 'https://www.youtube.com/watch?v=WpW36ldAqnM'
