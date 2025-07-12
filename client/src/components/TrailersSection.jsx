@@ -12,20 +12,11 @@ const TrailersSection = () => {
         <p className='text-gray-300 font-medium text-lg max-w-[960px] mx-auto'>Trailers</p>
         <div className='relative mt-6'>
             <BlurCircle  left='-100px' bottom='100px'/>
-            <BlurCircle  right='-100px' top='-100px'/>
-            <ReactPlayer src={currentTrailer.videoUrl} config={{
-    youtube: {
-      playerVars: {
-        controls: 0, // <== this hides the controls
-        modestbranding: 1,
-        rel: 0,
-        showinfo: 0,
-      },
-    },
-  }}className='mx-auto max-w-full' width="960px" height="540px"/>
+            <BlurCircle  right='-100px' top='100px'/>
+            <ReactPlayer src={currentTrailer.videoUrl} className='mx-auto max-w-full' width="960px" height="540px"/>
             <div className='group grid grid-cols-4 gap-4 md:gap-8 mt-8 max-w-3xl mx-auto'>
-              {dummyTrailers.slice(0,4).map((trailer)=>(
-                <div key={trailer.image}  className='relative group-hover:not-hover:opacity-50 hover:-translate-y-1 duration-300 transition max-md:h-60 cursor-pointer' onClick={()=>setcurrentTrailer({trailer})}>
+              {(dummyTrailers.filter(trailer=> trailer!=currentTrailer)).slice(0,4).map((trailer)=>(
+                <div key={trailer.image}  className='relative group-hover:not-hover:opacity-50 hover:-translate-y-1 duration-300 transition max-md:h-60 cursor-pointer' onClick={()=>setcurrentTrailer(trailer)}>
                   <img src={trailer.image} alt="trailer" className='rounded-lg w-full h-full object-cover brightness-75' />
                   <PlayCircleIcon strokeWidth={1.6} className='absolute top-1/2 left-1/2 w-5 md:w-8 h-5 md:h-12 transform -translate-x-1/2 -translate-y-1/2'/>
                 </div>
