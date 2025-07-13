@@ -45,24 +45,96 @@ export const dummyTrailers = [
 ]
 
 const dummyCastsData = [
-    { "name": "Milla Jovovich", "profile_path": "https://image.tmdb.org/t/p/original/usWnHCzbADijULREZYSJ0qfM00y.jpg", },
-    { "name": "Dave Bautista", "profile_path": "https://image.tmdb.org/t/p/original/snk6JiXOOoRjPtHU5VMoy6qbd32.jpg", },
-    { "name": "Arly Jover", "profile_path": "https://image.tmdb.org/t/p/original/zmznPrQ9GSZwcOIUT0c3GyETwrP.jpg", },
-    { "name": "Amara Okereke", "profile_path": "https://image.tmdb.org/t/p/original/nTSPtzWu6deZTJtWXHUpACVznY4.jpg", },
-    { "name": "Fraser James", "profile_path": "https://image.tmdb.org/t/p/original/mGAPQG2OKTgdKFkp9YpvCSqcbgY.jpg", },
-    { "name": "Deirdre Mullins", "profile_path": "https://image.tmdb.org/t/p/original/lJm89neuiVlYISEqNpGZA5kTAnP.jpg", },
-    { "name": "Sebastian Stankiewicz", "profile_path": "https://image.tmdb.org/t/p/original/hLN0Ca09KwQOFLZLPIEzgTIbqqg.jpg", },
-    { "name": "Tue Lunding", "profile_path": "https://image.tmdb.org/t/p/original/qY4W0zfGBYzlCyCC0QDJS1Muoa0.jpg", },
-    { "name": "Jacek Dzisiewicz", "profile_path": "https://image.tmdb.org/t/p/original/6Ksb8ANhhoWWGnlM6O1qrySd7e1.jpg", },
-    { "name": "Ian Hanmore", "profile_path": "https://image.tmdb.org/t/p/original/yhI4MK5atavKBD9wiJtaO1say1p.jpg", },
-    { "name": "Eveline Hall", "profile_path": "https://image.tmdb.org/t/p/original/uPq4xUPiJIMW5rXF9AT0GrRqgJY.jpg", },
-    { "name": "Kamila Klamut", "profile_path": "https://image.tmdb.org/t/p/original/usWnHCzbADijULREZYSJ0qfM00y.jpg", },
-    { "name": "Caoilinn Springall", "profile_path": "https://image.tmdb.org/t/p/original/uZNtbPHowlBYo74U1qlTaRlrdiY.jpg", },
-    { "name": "Jan Kowalewski", "profile_path": "https://image.tmdb.org/t/p/original/snk6JiXOOoRjPtHU5VMoy6qbd32.jpg", },
-    { "name": "Pawel Wysocki", "profile_path": "https://image.tmdb.org/t/p/original/zmznPrQ9GSZwcOIUT0c3GyETwrP.jpg", },
-    { "name": "Simon Lööf", "profile_path": "https://image.tmdb.org/t/p/original/cbZrB8crWlLEDjVUoak8Liak6s.jpg", },
-    { "name": "Tomasz Cymerman", "profile_path": "https://image.tmdb.org/t/p/original/nTSPtzWu6deZTJtWXHUpACVznY4.jpg", }
-]
+  // In the Lost Lands (2025)
+  [
+    { name: "Milla Jovovich", profile_path: "https://image.tmdb.org/t/p/original/usWnHCzbADijULREZYSJ0qfM00y.jpg" },
+    { name: "Dave Bautista", profile_path: "https://image.tmdb.org/t/p/original/snk6JiXOOoRjPtHU5VMoy6qbd32.jpg" },
+    { name: "Arly Jover", profile_path: "https://image.tmdb.org/t/p/original/zmznPrQ9GSZwcOIUT0c3GyETwrP.jpg" },
+    { name: "Amara Okereke", profile_path: "https://image.tmdb.org/t/p/original/nTSPtzWu6deZTJtWXHUpACVznY4.jpg" },
+    { name: "Fraser James", profile_path: "https://image.tmdb.org/t/p/original/mGAPQG2OKTgdKFkp9YpvCSqcbgY.jpg" },
+    { name: "Simon Lööf", profile_path: "https://image.tmdb.org/t/p/original/cbZrB8crWlLEDjVUoak8Liak6s.jpg" },
+    { name: "Deirdre Mullins", profile_path: "https://image.tmdb.org/t/p/original/lJm89neuiVlYISEqNpGZA5kTAnP.jpg" },
+    { name: "Sebastian Stankiewicz", profile_path: "https://image.tmdb.org/t/p/original/hLN0Ca09KwQOFLZLPIEzgTIbqqg.jpg" },
+    { name: "Tue Lunding", profile_path: "https://image.tmdb.org/t/p/original/qY4W0zfGBYzlCyCC0QDJS1Muoa0.jpg" },
+    { name: "Jacek Dzisiewicz", profile_path: "https://image.tmdb.org/t/p/original/6Ksb8ANhhoWWGnlM6O1qrySd7e1.jpg" },
+    { name: "Ian Hanmore", profile_path: "https://image.tmdb.org/t/p/original/yhI4MK5atavKBD9wiJtaO1say1p.jpg" },
+    { name: "Eveline Hall", profile_path: "https://image.tmdb.org/t/p/original/uPq4xUPiJIMW5rXF9AT0GrRqgJY.jpg" },
+    { name: "Kamila Klamut", profile_path: "https://aefestival.gr/wp-content/uploads/2019/02/Kamila_Klamut_PROFILE_photo_Roland_Okon.jpg" },
+    { name: "Caoilinn Springall", profile_path: "https://image.tmdb.org/t/p/original/uZNtbPHowlBYo74U1qlTaRlrdiY.jpg" },
+    { name: "Pawel Wysocki", profile_path: "https://image.tmdb.org/t/p/original/zmznPrQ9GSZwcOIUT0c3GyETwrP.jpg" }
+  ],
+
+  // Until Dawn (2025)
+  [
+    { name: "Ella Rubin", profile_path: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJfpXWM5CYedAXPvsQbCBjjUb4Yr9BIHatzd-s7lIWKPRZ3HgZn0NI42mU4BvgowNhUNoImm5wurKq4myitZ0J-A" },
+    { name: "Michael Cimino", profile_path: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwJJA5e9CPk1Nsq6UzNKsC9MlGfaeBBR7JqbQpubBZIuBnEUHjjYYwdvtN5ckfOVNGgU3vAo3vJsGpwlXvnIr5J6ABt6Pt11_DiA4zOaQ" },
+    { name: "Odessa A'zion", profile_path: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQOqf2D8ey7wmBTog4WJMscA51OWRl-Dko5uLZAYLg41SpA7vr1gayss101YiHv4qvEJm6EVF-HoKXihx_BCkyY-A" },
+    { name: "Ji‑young Yoo", profile_path: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQNcqmdjetMIZ35zF6QKFDbgzfOcUCy8EWLU0Bgvg2YWlKK5JpkyUbdK0EQdJ-yhc4Takpom8ZX8eO3TgDJ1Fk2yA" },
+    { name: "Belmont Cameli", profile_path: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRHB19RQIoVpeAR-W99M-cTjIGhy2WHMWRa-7E0WAfV0O67st8MhrewLyiEzpa_vweJZLIWqd6q47oJza0mVCT2_Q" },
+    { name: "Maia Mitchell", profile_path: "https://image.tmdb.org/t/p/w300/xGYAwTUFVpEvIyagMaeh9pBVVj0.jpg" },
+    { name: "Peter Stormare", profile_path: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTAd9xkTjFyW4FI1pJeXKdCBtnFN-79ASOqzRq-g2XCTSYd1f54R8RVjeJSFbXxmYaFg5eOgFiV6hzhg0LEfAHuLw" }
+  ],
+
+  // Lilo & Stitch (2025)
+  [
+    { name: "Maia Kealoha", profile_path: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTp9aHltEdhy2fNzdIM-6-nOQWQ-kq9o31QjW-w_1xB7pSNyUubp39Wgl5ptqN7YJUMzEu2-RRU_Bl6bhJTT8fj7MgOjnxVS-1R0bL3cA" },
+    { name: "Sydney Agudong", profile_path: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8x6vGayXphZ1hH0hCQ6BUw_gXhc73sLbhDAyNCuqv861RUvD8xBorQn4JdyCC73IUuyk&usqp=CAU" },
+    { name: "Chris Sanders", profile_path: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqc8BeojZzFx0Y3A9iQ1riApWDvtjJq207D_R1ZvVv2f6KUD5yNFxtcZNFnT8xmSVs3WOQIjdKJK5JNUtqB4SxYw" },
+    { name: "Zach Galifianakis", profile_path: "https://ntvb.tmsimg.com/assets/assets/274002_v9_bb.jpg?w=360&h=480" },
+    { name: "Billy Magnussen", profile_path: "https://upload.wikimedia.org/wikipedia/commons/a/a1/Billy_Magnussen_2011_%28cropped%29.jpg" },
+    { name: "Courtney B. Vance", profile_path: "https://m.media-amazon.com/images/M/MV5BMTg3OTY1MjM1Ml5BMl5BanBnXkFtZTcwMDk2ODY3Mg@@._V1_FMjpg_UX1000_.jpg" },
+    { name: "Hannah Waddingham", profile_path: "https://cinetown.s3.ap-south-1.amazonaws.com/people/profile_img/1716386887.webp" },
+    { name: "Tia Carrere", profile_path: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvEQZa4ppGv649qBDMGU4I2Kk0o7m9UW7maUUvp8GvrNkgdQf2uon11s4UM2P2AIO9TuU&usqp=CAU" }
+  ],
+
+  // Havoc (2025)
+  [
+    { name: "Tom Hardy", profile_path: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRo22BOhRnwqrAdtiORjW2QBxp4BsW_bzcfTDpmTD6pjVCsu9JZy-Pkts9GkNk1AQLvv1bJPsFxBtwY3LmIUfKVuQ" },
+    { name: "Jessie Mei Li", profile_path: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRXd0e4U7tfOINjfUtvWzc_8BvIF4tde7L-jbHisq0UqvQUdi-cEcIPkF78CsYCrdEzeuUjDWCoj19FYVFj-mOOnkciTaRPiC4KVbnysA" },
+    { name: "Timothy Olyphant", profile_path: "https://hips.hearstapps.com/hmg-prod/images/timothy-olyphant-6565b9ba14bfd.jpg?crop=1.00xw:0.501xh;0,0.0513xh&resize=1200:*" },
+    { name: "Forest Whitaker", profile_path: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRAWe3xYOrtLGrBYjQE0rwvuo_MZ0LDzgtJ3n2GDDhDWnk4bLddc2CC3AQRN-bzc9h9RQgPAOfBrW_ZkNXvQRup-g" },
+    { name: "Justin Cornwell", profile_path: "https://pbs.twimg.com/media/GUQ6vW5XYAApeI3.jpg" },
+    { name: "Quelin Sepulveda", profile_path: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT6q18zrw_AjXMrb-G99SoSVrgVHGKRl8s52-G78EuwpIL6JnmBvk56Fa9dHtQ7R_DJFSWAlSeMg74P6sgsikV8q51aXJn209VC6Iy-2w" }
+  ],
+
+  // A Minecraft Movie (2025)
+  [
+    { name: "Jason Momoa", profile_path: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQNIi4_dN468tO2-suNGnvtAoO_lfmBYbzfdGhRpHuTwPVjPSUQrLXdzkJSR0oFZ-zYikJdXmzUYwJ0WFc-xd2YO48FYOZRS1vZVVYwtw" },
+    { name: "Jack Black", profile_path: "https://sm.ign.com/t/ign_ap/video/t/top-11-jac/top-11-jack-black-movies_7ngk.1280.jpg" },
+    { name: "Emma Myers", profile_path: "https://hips.hearstapps.com/hmg-prod/images/emma-myers-minecraft-movie-trailer-66d85e114963c.jpg?crop=0.943xw:1.00xh;0.0343xw,0" },
+    { name: "Danielle Brooks", profile_path: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQzu2twP7yt1BpxGjWoTpulUe0Mr6KF3_7KztW6De9PUVlImPhxStHidlptU1JhtZACdSnX7bjV5QteTPu7J19D0WvarL1N_sH9fWfvQg" },
+    { name: "Sebastian Hansen", profile_path: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrC7sCSP5i84IvwePVTKI8mV9hRRVoMDSu3ITlOGwHzBaHMl0XGcm3sLo-7--8MhB7Vjs&usqp=CAU" }
+  ],
+
+  // Mission: Impossible – The Final Reckoning (2025)
+  [
+    { name: "Tom Cruise", profile_path: "https://images.mubicdn.net/images/cast_member/2184/cache-2992-1547409411/image-w856.jpg" },
+    { name: "Hayley Atwell", profile_path: "https://images.immediate.co.uk/production/volatile/sites/3/2019/09/41_CaptainAmericaFirstAvenger-20c2c2b.jpg?quality=90&crop=26px,32px,4204px,2800px&resize=980,654" },
+    { name: "Ving Rhames", profile_path: "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSi7Y2zC35PMvVL5mF3eXE5XBGR4TwKLnuUdMFG9sBrqa8BeuxNANDTGTkCCmuaZPPGgdseSupwkCpgNME" },
+    { name: "Simon Pegg", profile_path: "https://ntvb.tmsimg.com/assets/assets/225908_v9_bb.jpg?w=360&h=480" },
+    { name: "Esai Morales", profile_path: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRO6pL7OwEjannCvbBc6ZCzW94YeyGQi7VaxEaJ3D-l9ptUWRlKkkRhULEVL83WK7Os471wKuEFPCNJuih6jI1Sk3Hbke-5th7oehgx7hU" },
+    { name: "Pom Klementieff", profile_path: "https://upload.wikimedia.org/wikipedia/commons/6/67/Pom_Klementieff_at_the_2025_Cannes_Film_Festival_02.jpg" },
+    { name: "Henry Czerny", profile_path: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRmr-JdZDZB_spcInux-wPE5HImfgxaS4A3qE-F-LY26Jjn2_Zn051dShpM1_sVJi8l_WF6En9yJk-CXEZek4zT2A" },
+    { name: "Holt McCallany", profile_path: "https://variety.com/wp-content/uploads/2024/01/Holt-McCallany.jpg" },
+    { name: "Janet McTeer", profile_path: "https://i.pinimg.com/236x/68/a8/0c/68a80c6df4ffce4c296dcc6dd216279a.jpg" },
+    { name: "Nick Offerman", profile_path: "https://ca-times.brightspotcdn.com/dims4/default/90a7661/2147483647/strip/false/crop/2048x1365+0+0/resize/1486x990!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F64%2Fd7%2Ff372777df78796b46a74cac2b02a%2Fla-xpm-photo-2014-apr-11-la-et-st-nick-offerman-parks-and-recreation-20140411" }
+  ],
+
+  // Thunderbolts* (2025)
+  [
+    { name: "Florence Pugh", profile_path: "https://pubity.com/wp-content/uploads/2024/12/imago420069450-1024x715.jpg" },
+    { name: "Sebastian Stan", profile_path: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwZB2JL6O39XKp04iXqZD1aRzWMVXudkykkJtCNmctKORh_Fv5VGjuheB6Ob86MWth6OA&usqp=CAU" },
+    { name: "Julia Louis-Dreyfus", profile_path: "https://upload.wikimedia.org/wikipedia/commons/d/df/Julia_Louis-Dreyfus_2019_%282%29.jpg" },
+    { name: "Lewis Pullman", profile_path: "https://images.squarespace-cdn.com/content/v1/6694c2db2145ed3febe82fff/1745497390988-JVVI9BA6LJGZ90IUZM19/Lewis+Pullman+x+Nume%CC%81ro_13.jpg" },
+    { name: "David Harbour", profile_path: "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcT_6Esw5iOZHzD6dYxcNLjZd0QL1USAiTQLb7Pxo1Yum7TWcNWm3RpFzpSilW3LQKHx_bBxifCmruRMfUs" },
+    { name: "Wyatt Russell", profile_path: "https://s.yimg.com/os/en/blogs/sptcajuniorhockeyexperts/Actor-Wyatt-Russell-played-Junior-A-for-teams-in-Ontario-B.C.-and-the-U.S.-The-Associated-Press.jpg" },
+    { name: "Hannah John‑Kamen", profile_path: "https://resizing.flixster.com/Wp4pRAz2f9HEBZCG8tXYf4W672k=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/848796_v9_bg.jpg" },
+    { name: "Olga Kurylenko", profile_path: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK8Mq3uiQnYTInpH7qP57E-6GxCs5yZy5AxQ3QulGH2cNllQQIFkXDzBoDXETVQlStPfg&usqp=CAU" }
+  ]
+];
+
+
+
 
 export const dummyShowsData = [
     {
@@ -77,7 +149,7 @@ export const dummyShowsData = [
             { "id": 14, "name": "Fantasy" },
             { "id": 12, "name": "Adventure" }
         ],
-        "casts": dummyCastsData,
+        "casts": dummyCastsData[0],
         "release_date": "2025-02-27",
         "original_language": "en",
         "tagline": "She seeks the power to free her people.",
@@ -96,7 +168,7 @@ export const dummyShowsData = [
             { "id": 27, "name": "Horror" },
             { "id": 9648, "name": "Mystery" }
         ],
-        "casts": dummyCastsData,
+        "casts": dummyCastsData[1],
         "release_date": "2025-04-23",
         "original_language": "en",
         "tagline": "Every night a different nightmare.",
@@ -116,7 +188,7 @@ export const dummyShowsData = [
             { "id": 35, "name": "Comedy" },
             { "id": 878, "name": "Science Fiction" }
         ],
-        "casts": dummyCastsData,
+        "casts": dummyCastsData[2],
         "release_date": "2025-05-17",
         "original_language": "en",
         "tagline": "Hold on to your coconuts.",
@@ -136,7 +208,7 @@ export const dummyShowsData = [
             { "id": 80, "name": "Crime" },
             { "id": 53, "name": "Thriller" }
         ],
-        "casts": dummyCastsData,
+        "casts": dummyCastsData[3],
         "release_date": "2025-04-25",
         "original_language": "en",
         "tagline": "No law. Only disorder.",
@@ -157,7 +229,7 @@ export const dummyShowsData = [
             { "id": 12, "name": "Adventure" },
             { "id": 14, "name": "Fantasy" }
         ],
-        "casts": dummyCastsData,
+        "casts": dummyCastsData[4],
         "release_date": "2025-03-31",
         "original_language": "en",
         "tagline": "Be there and be square.",
@@ -177,7 +249,7 @@ export const dummyShowsData = [
             { "id": 12, "name": "Adventure" },
             { "id": 53, "name": "Thriller" }
         ],
-        "casts": dummyCastsData,
+        "casts": dummyCastsData[5],
         "release_date": "2025-05-17",
         "original_language": "en",
         "tagline": "Our lives are the sum of our choices.",
@@ -197,7 +269,7 @@ export const dummyShowsData = [
             { "id": 878, "name": "Science Fiction" },
             { "id": 12, "name": "Adventure" }
         ],
-        "casts": dummyCastsData,
+        "casts": dummyCastsData[6],
         "release_date": "2025-04-30",
         "original_language": "en",
         "tagline": "Everyone deserves a second shot.",

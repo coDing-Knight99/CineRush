@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Routes, useLocation } from 'react-router-dom'
 import Home from './pages/Home'
-import movieDetails from './pages/movieDetails'
+import MoviePage from './pages/MoviePage'
 import Movies from './pages/Movies'
 import SeatLayout from './pages/SeatLayout'
 import Mybookings from './pages/Mybookings'
@@ -18,8 +18,8 @@ const App = () => {
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/movies" element={<Movies/>}/>
-      <Route path="/movies:id" element={<movieDetails/>}/>
-      <Route path="/movies:id:date" element={<SeatLayout/>}/>
+      <Route path="/movies/:id" element={<MoviePage/>}/>
+      <Route path="/movies/:id/:date" element={<SeatLayout/>}/>
       <Route path="/my-bookings" element={<Mybookings/>}/>
       <Route path="/favourite" element={<Favourite/>}/>
     </Routes>
