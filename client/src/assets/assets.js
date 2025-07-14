@@ -2,7 +2,7 @@ import logo from './logo-cinerush.png'
 import marvelLogo from './marvelLogo.svg'
 import googlePlay from './googlePlay.svg'
 import appStore from './appStore.svg'
-import screenImage from './screenImage.svg'
+import screen from './screen.svg'
 import profile from './profile.png'
 import jurrasic from './jurassic-world.jpg'
 import logoj from './logo-removebg-preview.png'
@@ -11,7 +11,7 @@ export const assets = {
     marvelLogo,
     googlePlay,
     appStore,
-    screenImage,
+    screen,
     profile,
     jurrasic,
     logoj,
@@ -60,8 +60,7 @@ const dummyCastsData = [
     { name: "Ian Hanmore", profile_path: "https://image.tmdb.org/t/p/original/yhI4MK5atavKBD9wiJtaO1say1p.jpg" },
     { name: "Eveline Hall", profile_path: "https://image.tmdb.org/t/p/original/uPq4xUPiJIMW5rXF9AT0GrRqgJY.jpg" },
     { name: "Kamila Klamut", profile_path: "https://aefestival.gr/wp-content/uploads/2019/02/Kamila_Klamut_PROFILE_photo_Roland_Okon.jpg" },
-    { name: "Caoilinn Springall", profile_path: "https://image.tmdb.org/t/p/original/uZNtbPHowlBYo74U1qlTaRlrdiY.jpg" },
-    { name: "Pawel Wysocki", profile_path: "https://image.tmdb.org/t/p/original/zmznPrQ9GSZwcOIUT0c3GyETwrP.jpg" }
+    
   ],
 
   // Until Dawn (2025)

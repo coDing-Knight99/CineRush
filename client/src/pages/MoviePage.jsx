@@ -3,18 +3,25 @@ import { useParams } from 'react-router-dom'
 import { dummyDateTimeData, dummyShowsData } from '../assets/assets';
 import { useEffect, useState } from 'react';
 import BlurCircle from '../components/BlurCircle';
-import { Heart, PlayCircleIcon, StarIcon } from 'lucide-react';
+import { ArrowRight, Heart, PlayCircleIcon, StarIcon } from 'lucide-react';
 import timeformat from '../lib/timeformate';
-
+import DateSeleect from '../components/DateSeleect';
+import MovieCard from '../components/MovieCard';
+import { useNavigate } from 'react-router-dom';
+import Loading from '../components/Loading';
 const MoviePage = () => {
   const {id}=useParams();
   const [show, setshow] = useState(null);
+  const navigate = useNavigate();
   const getShow = async ()=>{
+   
     const show=await dummyShowsData.find(show=> show._id==id)
-    setshow({
+    if(show){
+    setTimeout(()=>{setshow({
       movie:show,
       dateTime: dummyDateTimeData
-    })
+    })},2000);
+    }
   }
   
   useEffect(() => {
@@ -53,21 +60,31 @@ const MoviePage = () => {
       <p>Your Favorite Cast</p>
       <div className='overflow-x-auto mt-8 pb-4 no-scrollbar'>
         <div className='flex items-center gap-4 w-max px-4'>
-          {show.movie.casts.slice(0,12).map((cast, index) => (
+          {show.movie.casts.map((cast, index) => (
             <div key={index} className='flex flex-col items-center gap-2'>
               <img src={cast.profile_path} alt="" className='w-20 h-20 rounded-full aspect-square object-cover'/>
-              <p className='text-sm text-center'>{cast.name}</p>
+              <p className='text-xs text-center'>{cast.name}</p>
             </div>
           ))}
         </div>
       </div>
-      <div className='flex bg-primary backdrop-blur-lg items-center justify-between px-6 py-4 rounded-lg mt-8' id='dateselect'>
-        <p>Choose Date</p>
+      <DateSeleect dateTime={show.dateTime} id={id}/>
 
+      <p className='text-lg font-medium mt-20 mb-8'>You May Also Like</p>
+      <div className='flex flex-wrap max-sm:justify-center gap-8'>
+        {dummyShowsData.slice(0,4).map((movie,index)=>(
+          <MovieCard key={index} movie={movie}/>  
+        ))
+        }
+      </div>
+      <div className='flex justify-center mt-20'>
+        <button onClick={()=>{
+          navigate('/movies');scrollTo(0,0);
+        }} className='flex gap-2 px-10 py-3 text-md bg-primary hover:bg-primary-dull transition rounded-md font-medium cursor-pointer active:scale-95'>Show More <ArrowRight className='text-xs hover:translate-x-1 transition'/></button>
       </div>
     </div>
   ):(
-    <div>Loading...</div>
+    <div><Loading/></div>
   )
 }
 
