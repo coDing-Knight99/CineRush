@@ -6,7 +6,7 @@ import MovieCard from './MovieCard'
 
 const HeroSection = () => {
   return (<>
-    <div className='flex flex-col items-start gap-4 px-6 md:px-16 lg:px-36 bg-[url("./assets/jurassic-world.jpg")] bg-cover bg-center h-screen'>
+    <div className='flex flex-col items-start gap-4 px-6 md:px-16 lg:px-36 bg-[url("./assets/jurassic-world.jpg")] animate-pulse bg-cover bg-center h-screen'>
         {/* <img src={assets.logoj} alt="" />
         <h1 className='text-5xl md:text-[70px] md:leading-18 font-semibold max-w-110'>Jurassic World <br />Rebirth</h1> */}
         <div className='w-screen h-[85%]'></div>

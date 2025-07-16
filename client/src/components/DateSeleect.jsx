@@ -9,7 +9,7 @@ const DateSeleect = ({dateTime,id}) => {
     const navigate=useNavigate();
     const onBookHandler = () => {
     if (!selected) {
-        return toast('Please select a date first')
+        return toast.error('Please select a date first')
     }
     else{
         navigate(`/movies/${id}/${selected}`);

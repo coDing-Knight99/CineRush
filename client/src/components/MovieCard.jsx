@@ -12,7 +12,7 @@ const MovieCard = ({movie}) => {
       <p className='font-semibold mt-2 truncate'>{movie.title}</p>
 
       <p className='text-sm text-gray-400 mt-2'>
-        {new Date(movie.release_date).getFullYear()} - {movie.genres.slice(0,2).map(genre=>genre.name).join(" | ")} - {timeformat(movie.runtime) }
+        {new Date(movie.release_date).getFullYear()} - {movie.genres.slice(0,2).map(genre=>genre.name).join(" | ")} <br /> {timeformat(movie.runtime) }
       </p>
 
       <div className='flex item-center justify-between mt-4 pb-3'>

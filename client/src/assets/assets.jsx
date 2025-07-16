@@ -129,7 +129,54 @@ const dummyCastsData = [
     { name: "Wyatt Russell", profile_path: "https://s.yimg.com/os/en/blogs/sptcajuniorhockeyexperts/Actor-Wyatt-Russell-played-Junior-A-for-teams-in-Ontario-B.C.-and-the-U.S.-The-Associated-Press.jpg" },
     { name: "Hannah John‑Kamen", profile_path: "https://resizing.flixster.com/Wp4pRAz2f9HEBZCG8tXYf4W672k=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/848796_v9_bg.jpg" },
     { name: "Olga Kurylenko", profile_path: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK8Mq3uiQnYTInpH7qP57E-6GxCs5yZy5AxQ3QulGH2cNllQQIFkXDzBoDXETVQlStPfg&usqp=CAU" }
-  ]
+  ],
+
+  //The Electric State (2025)
+  [
+    { name: "Millie Bobby Brown", profile_path: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Millie_Bobby_Brown_-_MBB_-_4_-_SFM5_-_July_10%2C_2022_at_Stranger_Fan_Meet_5_People_Convention_%28cropped%29.jpg/960px-Millie_Bobby_Brown_-_MBB_-_4_-_SFM5_-_July_10%2C_2022_at_Stranger_Fan_Meet_5_People_Convention_%28cropped%29.jpg" },
+    { name: "Chris Pratt", profile_path: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRzTj14s9hM8-SWvcO1Rz3e-L4OLWpL1shmiOFdjO5U4d9wb7Js" },
+    { name: "Ke Huy Quan", profile_path: "https://media.gq.com/photos/625054e2be8b7ed25392be62/16:9/w_2560%2Cc_limit/1387390432" },
+    { name: "Stanley Tucci", profile_path: "https://i.guim.co.uk/img/media/96cd3926e57fd987aa89df21cf9cf9be82049874/1473_69_2188_1313/master/2188.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=3293aa1c78df1cb80cbf0e6a6dd76652" },
+    { name: "Woody Norman", profile_path: "https://m.media-amazon.com/images/M/MV5BYmQ2NDcxNDQtZjU5Yy00NjhhLTkxYmMtNGEzNDUwNzc4MDQ5XkEyXkFqcGc@._V1_CR112,1,981,1472_.jpg" },
+    { name: "Jenny Slate", profile_path: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQqEn2WjRH9tUhHcJkMcviN3epjZz27QGu6aAgvgLXN7O14e5M_jfu1Mzl8CUp3--UGFinS4fZl4fAP6ZcHF4-WmG9v7zmQN7-jFf21n7Q" },
+    { name: "Anthony Mackie", profile_path: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSORiTIvDd5Xy1qeIRzlnd5uAibjT_Ef9POJXYeRS5gcEQO5H4tRPIZyToYCjkXaX6drRK6HEZR7kXSFP7EiMqGjA" },
+    { name: "Giancarlo Esposito", profile_path: "https://ntvb.tmsimg.com/assets/assets/73215_v9_bd.jpg?w=360&h=480" },
+            
+  ],
+  [
+    { name: "Jake Gyllenhaal", profile_path: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwZB2JL6O39XKp04iXqZD1aRzWMVXudkykkJtCNmctKORh_Fv5VGjuheB6Ob86MWth6OA&usqp=CAU" },
+    { name: "Jake Gyllenhaal", profile_path: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwZB2JL6O39XKp04iXqZD1aRzWMVXudkykkJtCNmctKORh_Fv5VGjuheB6Ob86MWth6OA&usqp=CAU" },
+    { name: "Jake Gyllenhaal", profile_path: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwZB2JL6O39XKp04iXqZD1aRzWMVXudkykkJtCNmctKORh_Fv5VGjuheB6Ob86MWth6OA&usqp=CAU" },
+    { name: "Jake Gyllenhaal", profile_path: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwZB2JL6O39XKp04iXqZD1aRzWMVXudkykkJtCNmctKORh_Fv5VGjuheB6Ob86MWth6OA&usqp=CAU" },
+    { name: "Jake Gyllenhaal", profile_path: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwZB2JL6O39XKp04iXqZD1aRzWMVXudkykkJtCNmctKORh_Fv5VGjuheB6Ob86MWth6OA&usqp=CAU" },
+    { name: "Jake Gyllenhaal", profile_path: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwZB2JL6O39XKp04iXqZD1aRzWMVXudkykkJtCNmctKORh_Fv5VGjuheB6Ob86MWth6OA&usqp=CAU" },
+    { name: "Jake Gyllenhaal", profile_path: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwZB2JL6O39XKp04iXqZD1aRzWMVXudkykkJtCNmctKORh_Fv5VGjuheB6Ob86MWth6OA&usqp=CAU" },
+    { name: "Jake Gyllenhaal", profile_path: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwZB2JL6O39XKp04iXqZD1aRzWMVXudkykkJtCNmctKORh_Fv5VGjuheB6Ob86MWth6OA&usqp=CAU" },
+            
+  ],
+  [
+    { name: "Jake Gyllenhaal", profile_path: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwZB2JL6O39XKp04iXqZD1aRzWMVXudkykkJtCNmctKORh_Fv5VGjuheB6Ob86MWth6OA&usqp=CAU" },
+    { name: "Jake Gyllenhaal", profile_path: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwZB2JL6O39XKp04iXqZD1aRzWMVXudkykkJtCNmctKORh_Fv5VGjuheB6Ob86MWth6OA&usqp=CAU" },
+    { name: "Jake Gyllenhaal", profile_path: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwZB2JL6O39XKp04iXqZD1aRzWMVXudkykkJtCNmctKORh_Fv5VGjuheB6Ob86MWth6OA&usqp=CAU" },
+    { name: "Jake Gyllenhaal", profile_path: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwZB2JL6O39XKp04iXqZD1aRzWMVXudkykkJtCNmctKORh_Fv5VGjuheB6Ob86MWth6OA&usqp=CAU" },
+    { name: "Jake Gyllenhaal", profile_path: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwZB2JL6O39XKp04iXqZD1aRzWMVXudkykkJtCNmctKORh_Fv5VGjuheB6Ob86MWth6OA&usqp=CAU" },
+    { name: "Jake Gyllenhaal", profile_path: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwZB2JL6O39XKp04iXqZD1aRzWMVXudkykkJtCNmctKORh_Fv5VGjuheB6Ob86MWth6OA&usqp=CAU" },
+    { name: "Jake Gyllenhaal", profile_path: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwZB2JL6O39XKp04iXqZD1aRzWMVXudkykkJtCNmctKORh_Fv5VGjuheB6Ob86MWth6OA&usqp=CAU" },
+    { name: "Jake Gyllenhaal", profile_path: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwZB2JL6O39XKp04iXqZD1aRzWMVXudkykkJtCNmctKORh_Fv5VGjuheB6Ob86MWth6OA&usqp=CAU" },
+            
+  ],
+  [
+    { name: "Jake Gyllenhaal", profile_path: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwZB2JL6O39XKp04iXqZD1aRzWMVXudkykkJtCNmctKORh_Fv5VGjuheB6Ob86MWth6OA&usqp=CAU" },
+    { name: "Jake Gyllenhaal", profile_path: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwZB2JL6O39XKp04iXqZD1aRzWMVXudkykkJtCNmctKORh_Fv5VGjuheB6Ob86MWth6OA&usqp=CAU" },
+    { name: "Jake Gyllenhaal", profile_path: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwZB2JL6O39XKp04iXqZD1aRzWMVXudkykkJtCNmctKORh_Fv5VGjuheB6Ob86MWth6OA&usqp=CAU" },
+    { name: "Jake Gyllenhaal", profile_path: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwZB2JL6O39XKp04iXqZD1aRzWMVXudkykkJtCNmctKORh_Fv5VGjuheB6Ob86MWth6OA&usqp=CAU" },
+    { name: "Jake Gyllenhaal", profile_path: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwZB2JL6O39XKp04iXqZD1aRzWMVXudkykkJtCNmctKORh_Fv5VGjuheB6Ob86MWth6OA&usqp=CAU" },
+    { name: "Jake Gyllenhaal", profile_path: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwZB2JL6O39XKp04iXqZD1aRzWMVXudkykkJtCNmctKORh_Fv5VGjuheB6Ob86MWth6OA&usqp=CAU" },
+    { name: "Jake Gyllenhaal", profile_path: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwZB2JL6O39XKp04iXqZD1aRzWMVXudkykkJtCNmctKORh_Fv5VGjuheB6Ob86MWth6OA&usqp=CAU" },
+    { name: "Jake Gyllenhaal", profile_path: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwZB2JL6O39XKp04iXqZD1aRzWMVXudkykkJtCNmctKORh_Fv5VGjuheB6Ob86MWth6OA&usqp=CAU" },
+            
+  ],
+
 ];
 
 
@@ -155,6 +202,7 @@ export const dummyShowsData = [
         "vote_average": 6.4,
         "vote_count": 15000,
         "runtime": 102,
+        "isFavorite": false,
     },
     {
         "_id": "1232546",
@@ -174,6 +222,7 @@ export const dummyShowsData = [
         "vote_average": 6.405,
         "vote_count": 18000,
         "runtime": 103,
+        "isFavorite": false,
     },
     {
         "_id": "552524",
@@ -194,6 +243,7 @@ export const dummyShowsData = [
         "vote_average": 7.117,
         "vote_count": 27500,
         "runtime": 108,
+        "isFavorite": false,
     },
     {
         "_id": "668489",
@@ -214,6 +264,7 @@ export const dummyShowsData = [
         "vote_average": 6.537,
         "vote_count": 35960,
         "runtime": 107,
+        "isFavorite": false,
     },
     {
         "_id": "950387",
@@ -235,6 +286,7 @@ export const dummyShowsData = [
         "vote_average": 6.516,
         "vote_count": 15225,
         "runtime": 101,
+        "isFavorite": false,
     },
     {
         "_id": "575265",
@@ -255,6 +307,7 @@ export const dummyShowsData = [
         "vote_average": 7.042,
         "vote_count": 19885,
         "runtime": 170,
+        "isFavorite": false,
     },
     {
         "_id": "986056",
@@ -275,7 +328,92 @@ export const dummyShowsData = [
         "vote_average": 7.443,
         "vote_count": 23569,
         "runtime": 127,
-    }
+        "isFavorite": false,
+    },
+    {
+    "_id": "991001",
+    "id": 991001,
+    "title": "The Electric State",
+    "overview": "In a retro-futuristic 1997, a teenage girl and her robot travel across the American West in search of her missing brother, discovering a world filled with strange technology and broken dreams.",
+    "poster_path": "https://occ-0-8407-90.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABVGwW4NE41Ey7X_vLZ3Xo8TEw1xoNWwuKprXRwvzYiASm_JS6R1DGuseINwFfQ5MjOU4mg7hEAkHnDDGN3vN0a5wW7Uh4BPW860d.jpg?r=677",
+    "backdrop_path": "https://decider.com/wp-content/uploads/2025/03/THE-ELECTRIC-STATE-NETFLIX-MOVIE-REVIEW.jpg?quality=75&strip=all",
+    "genres": [
+        { "id": 878, "name": "Science Fiction" },
+        { "id": 12, "name": "Adventure" }
+    ],
+    "casts": dummyCastsData[7],
+    "release_date": "2025-01-15",
+    "original_language": "en",
+    "tagline": "A journey through the tech-twisted past.",
+    "vote_average": 6.9,
+    "vote_count": 13342,
+    "runtime": 119,
+    "isFavorite": false,
+},
+{
+    "_id": "937123",
+    "id": 937123,
+    "title": "Dune: Part Three",
+    "overview": "Paul Atreides continues his rise to power as the Kwisatz Haderach, facing gods, politics, and betrayal in the desert planet of Arrakis.",
+    "poster_path": "https://i.ytimg.com/vi/XnMt5MtgU3M/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBEXJUB8PuMprwJ19UcTwSmn_2Xmg",
+    "backdrop_path": "https://image.tmdb.org/t/p/original/xOMo8BRK7PfcJv9JCnx7s5hj0PX.jpg",
+    "genres": [
+        { "id": 878, "name": "Science Fiction" },
+        { "id": 12, "name": "Adventure" },
+        { "id": 18, "name": "Drama" }
+    ],
+    "casts": dummyCastsData[8],
+    "release_date": "2025-11-07",
+    "original_language": "en",
+    "tagline": "The prophecy continues.",
+    "vote_average": 8.1,
+    "vote_count": 24176,
+    "runtime": 152,
+    "isFavorite": false,
+},
+{
+    "_id": "823876",
+    "id": 823876,
+    "title": "How to Train Your Dragon",
+    "overview": "A young Viking named Hiccup befriends a dragon, challenging his village’s traditions and facing danger with a heart full of courage.",
+    "poster_path": "https://ca-times.brightspotcdn.com/dims4/default/a78617d/2147483647/strip/true/crop/9871x6579+4256+0/resize/2000x1333!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F3c%2F32%2F5495eef44de794bcd32c1a684566%2F2569-fp-01025.jpg",
+    "backdrop_path": "https://www.kiis1011.com.au/wp-content/uploads/sites/3/2024/11/Dragon-Poster-2.jpg?crop=229px,238px,945px,1133px&resize=680,816&quality=75",
+    "genres": [
+        { "id": 16, "name": "Animation" },
+        { "id": 10751, "name": "Family" },
+        { "id": 12, "name": "Adventure" }
+    ],
+    "casts": dummyCastsData[9],
+    "release_date": "2025-06-13",
+    "original_language": "en",
+    "tagline": "The boy who befriended a dragon.",
+    "vote_average": 7.8,
+    "vote_count": 18954,
+    "runtime": 104,
+    "isFavorite": false,
+},
+{
+    "_id": "890125",
+    "id": 890125,
+    "title": "Jurassic World: Rebirth",
+    "overview": "Years after the collapse of the original parks, humanity attempts to reclaim a dinosaur-infested Earth with a bold new experiment—but nature fights back harder than ever.",
+    "poster_path": "https://radii.co/wp-content/uploads/2025/07/radii-jurassic-world-rebirth-china-box-office-01.jpg",
+    "backdrop_path": "https://lh3.googleusercontent.com/proxy/W3lOpEaX1XnE1fDcKRSBGmVGDPxYxe-pJ2WyMsw1DuAX8WeMdAcyI8FotVMFPXZpQc0xF_4-G4rOVjxmX8xN0uq46Nq10Z0b3Q3uQ3LyqIQrALe97qCXz43SEX4qRAJ2nltRXrSGKUqDSsLNH2G28qM",
+    "genres": [
+        { "id": 28, "name": "Action" },
+        { "id": 12, "name": "Adventure" },
+        { "id": 878, "name": "Science Fiction" }
+    ],
+    "casts": dummyCastsData[10],
+    "release_date": "2025-07-04",
+    "original_language": "en",
+    "tagline": "Nature finds a way... again.",
+    "vote_average": 7.2,
+    "vote_count": 20345,
+    "runtime": 129,
+    "isFavorite": false,
+}
+
 ]
 
 export const dummyDateTimeData = {
