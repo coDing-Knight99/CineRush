@@ -90,7 +90,9 @@ const SeatLayout = () => {
             ))}
           </div>
         </div>
-        <button className='group flex hover:bg-primary-dull transition active:scale-95 items-center  justify-center w-70 h-10 rounded-full bg-primary gap-2 p-5 md:mt-20 mt-15 cursor-pointer'><p>Proceed To Checkout</p> <ArrowRightIcon className='group-hover:translate-x-0.5 ' strokeWidth={3} /></button>
+        <button onClick={()=>{
+          toast.error('Not available in demo mode')
+        }} className='group flex hover:bg-primary-dull transition active:scale-95 items-center  justify-center w-70 h-10 rounded-full bg-primary gap-2 p-5 md:mt-20 mt-15 cursor-pointer'><p>Proceed To Checkout</p> <ArrowRightIcon className='group-hover:translate-x-0.5 ' strokeWidth={3} /></button>
       </div>
     </div>
   ):(

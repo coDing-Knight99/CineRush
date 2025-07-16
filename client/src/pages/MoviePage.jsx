@@ -79,7 +79,7 @@ const MoviePage = () => {
 
       <p className='text-lg font-medium mt-20 mb-8'>You May Also Like</p>
       <div className='flex flex-wrap max-sm:justify-center gap-8'>
-        {shows.slice(0,4).map((movie,index)=>(
+        {shows.filter(show=>show._id!=movie._id).slice(0,4).map((movie,index)=>(
           <MovieCard onClick={()=>{
             navigate(`/movies/${movie._id}`);scrollTo(0,0);
           }} key={index} movie={movie}/>  
