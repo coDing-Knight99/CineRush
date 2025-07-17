@@ -1,5 +1,4 @@
 import logo from './logo-cinerush.png'
-import marvelLogo from './marvelLogo.svg'
 import googlePlay from './googlePlay.svg'
 import appStore from './appStore.svg'
 import screen from './screen.svg'
@@ -8,7 +7,6 @@ import jurrasic from './jurassic-world.jpg'
 import logoj from './logo-removebg-preview.png'
 export const assets = {
     logo,
-    marvelLogo,
     googlePlay,
     appStore,
     screen,
@@ -195,7 +193,7 @@ export const dummyShowsData = [
         "title": "Jurassic World: Rebirth",
         "overview": "Years after the collapse of the original parks, humanity attempts to reclaim a dinosaur-infested Earth with a bold new experiment—but nature fights back harder than ever.",
         "poster_path": "https://radii.co/wp-content/uploads/2025/07/radii-jurassic-world-rebirth-china-box-office-01.jpg",
-        "backdrop_path": "https://lh3.googleusercontent.com/proxy/W3lOpEaX1XnE1fDcKRSBGmVGDPxYxe-pJ2WyMsw1DuAX8WeMdAcyI8FotVMFPXZpQc0xF_4-G4rOVjxmX8xN0uq46Nq10Z0b3Q3uQ3LyqIQrALe97qCXz43SEX4qRAJ2nltRXrSGKUqDSsLNH2G28qM",
+        "backdrop_path": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTMD-En_5i2eMnPj2MCzqCdXNxfT1tYqcJ2_5aMDfVyq76b-oP6NMzKIV_0WZXfR9oYp9udRA",
         "genres": [
             { "id": 28, "name": "Action" },
             { "id": 12, "name": "Adventure" },
